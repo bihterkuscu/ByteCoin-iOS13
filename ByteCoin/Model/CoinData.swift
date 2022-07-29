@@ -7,7 +7,7 @@
 //
 
 import Foundation
-//Struct yapısını JSON kodunu çözmek için kullanmak için Decodable protokole uygun hale getir 
+//Make the struct conform to the Decodable protocol to use it to decode our JSON.
 struct CoinData: Decodable{
     let rate: Double
 }

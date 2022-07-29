@@ -27,7 +27,7 @@ class ViewController: UIViewController {
 //MARK: - CoinManagerDelegate
 
     extension ViewController: CoinManagerDelegate {
-    //coinManager fiyatı aldığında bu methodu çağırır ve fiyat ve para birimini geçecektir.
+    //When the coinManager gets the price it will call this method and pass over the price and currency.
     func didUpdatePrice(price: String, currency: String) {
             
             //try to do this from a background thread (URLSession works in the background).
